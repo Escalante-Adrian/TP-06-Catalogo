@@ -1,9 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  background: hwb(204 44% 0%);
+  background: rgb(117, 195, 255);
   padding: 20px;
   margin: 0;
   text-align: center;
+  color: white;
 }
 
 h1 {
@@ -23,7 +24,7 @@ input {
 }
 
 .movie-card {
-  background: rgb(23, 161, 253);
+  background: rgb(68, 180, 255);
   padding: 10px;
   border-radius: 5px;
 }
