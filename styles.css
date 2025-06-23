@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eee;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.movie-card {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.star {
+  font-size: 20px;
+  cursor: pointer;
+  color: gray;
+  margin: 0 2px;
+  user-select: none;
+}
+
+.star.filled {
+  color: gold;
+}
