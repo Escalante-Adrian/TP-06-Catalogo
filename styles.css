@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #eee;
+  background: hwb(204 44% 0%);
   padding: 20px;
   margin: 0;
   text-align: center;
@@ -23,7 +23,7 @@ input {
 }
 
 .movie-card {
-  background: white;
+  background: rgb(23, 161, 253);
   padding: 10px;
   border-radius: 5px;
 }
@@ -36,7 +36,7 @@ input {
 .star {
   font-size: 20px;
   cursor: pointer;
-  color: gray;
+  color: rgb(0, 0, 0);
   margin: 0 2px;
   user-select: none;
 }
